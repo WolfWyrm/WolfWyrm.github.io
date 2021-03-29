@@ -1,23 +1,228 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<link rel="stylesheet" href="style/main.css">
+
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | KaikinRoller</title>
+    <title>J.E. Bourque</title>
   </head>
-  <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 100%; height: 700px; background: #231F20"></canvas>
-    <script src="Build/Build.loader.js"></script>
+  <body>
+    <div id="page-body">
+
+      <!-- NAVBAR -->
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active" style="font-size:30px;">J.E. Bourque</a>
+        <a href="#about">About</a>
+        <a href="#personal">Personal Work</a>
+        <a href="#college">College Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <!-- ABOUT SECTION-->
+      <div class="jump" id="about"></div>
+      <div class="section">
+        <div class="section-header">
+          <h2 style="font-size:xxx-large;">About</h2>
+        </div>
+        <div class="section-content">
+          <p style="padding-left:200px;padding-right:200px;text-align:justify-center;">Hey! I'm a passionate 20 y.o. game programmer and designer from New Brunswick, Canada. I'm a recent graduate, with excellence and honors, from <a href="https://www.easterncollege.ca/">Eastern College</a> studying <i>Video Game Design and Development.</i> I'm looking for a long-term position or freelance work, consider <a href="#contact">contacting me</a>!</p>
+        </div>
+      </div>
+
+      <!-- PERSONAL SECTION-->
+      <div class="jump" id="personal"></div>
+      <div class="section">
+        <div class="section-header">
+          <h2>Personal Work</h2>
+          <p>Click on titles to learn more</p>
+        </div>
+
+
+        <div class="section-content">
+          <div class="row" style="margin-left:auto;margin-right:auto;">
+
+            <!-- RotR-->
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="gallery-item">
+            <div class="gallery-item-thumb" style="background:url(https://via.placeholder.com/150)">
+              <a href="#" class="gallery-item-title">RotR</a>
+            </div>
+            <div class="gallery-item-tags">
+              <span class="badge badge-gamedev">gamedev</span>
+              <span class="badge badge-gamedev">3D</span>
+              <span class="badge badge-cplusplus">c++</span>
+              <span class="badge badge-unreal">ue4</span>
+            </div>
+            <div class="gallery-item-description">
+              An ongoing personal project [2018 - present]
+            </div>
+            </div>
+          </div>
+
+          <!-- Down To Earth -->
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="gallery-item">
+              <div class="gallery-item-thumb" style="background:url(https://via.placeholder.com/150);">
+                <a href="#" class="gallery-item-title">Down To Earth</a>
+              </div>
+              <div class="gallery-item-tags">
+                <span class="badge badge-gamedev">gamedev</span>
+                <span class="badge badge-gamedev">gamejam</span>
+                <span class="badge badge-gamedev">3D</span>
+                <span class="badge badge-unreal">ue4</span>
+              </div>
+              <div class="gallery-item-description">
+                Baby's first gamejam [Nov. 2019]
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="gallery-item">
+              <div class="gallery-item-thumb" style="background:url(https://via.placeholder.com/150);">
+                <a href="#" class="gallery-item-title">Bark</a>
+              </div>
+              <div class="gallery-item-tags">
+                <span class="badge badge-art">3D</span>
+                <span class="badge badge-art">zbrush</span>
+                <span class="badge badge-art">maya</span>
+                <span class="badge badge-unreal">ue4</span>
+              </div>
+              <div class="gallery-item-description">
+                  A 3D wolf character model
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="gallery-item">
+              <div class="gallery-item-thumb" style="background:url(https://via.placeholder.com/150)">
+                <a href="#" class="gallery-item-title">Chickenfox</a>
+              </div>
+              <div class="gallery-item-tags">
+                <span class="badge badge-gamedev">gamedev</span>
+                <span class="badge badge-gamedev">2D</span>
+                <span class="badge badge-csharp">c#</span>
+                <span class="badge badge-unity">unity</span>
+              </div>
+              <div class="gallery-item-description">
+                A prototype for a mobile Pooyan look-alike [2020]
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="gallery-item">
+              <div class="gallery-item-thumb" style="background:url(https://via.placeholder.com/150)">
+                <a href="#" class="gallery-item-title">Jump</a>
+              </div>
+              <div class="gallery-item-tags">
+                <span class="badge badge-gamedev">gamedev</span>
+                <span class="badge badge-gamedev">2D</span>
+                <span class="badge badge-csharp">c#</span>
+                <span class="badge badge-unity">unity</span>
+              </div>
+              <div class="gallery-item-description">
+                A disregarded 2D pixel platformer project [2020]
+              </div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </div> <!-- END SECTION -->
+
+      <!-- COLLEGE SECTION-->
+      <div class="jump" id="college"></div>
+      <div class="section">
+        <div class="section-header">
+          <h2>College Projects</h2>
+          <p>Click on titles to learn more</p>
+        </div>
+
+
+        <div class="section-content">
+          <div class="row" style="margin-left:auto;margin-right:auto;">
+
+            <!-- RotR-->
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="gallery-item">
+            <div class="gallery-item-thumb" style="background:url(https://via.placeholder.com/150)">
+              <a href="#" class="gallery-item-title">Tara</a>
+            </div>
+            <div class="gallery-item-tags">
+              <span class="badge badge-gamedev">gamedev</span>
+              <span class="badge badge-gamedev">3D</span>
+              <span class="badge badge-unreal">ue4</span>
+            </div>
+            <div class="gallery-item-description">
+              UE4 module final project [Oct. 2019]
+            </div>
+            </div>
+          </div>
+
+          <!-- Down To Earth -->
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="gallery-item">
+              <div class="gallery-item-thumb" style="background:url(https://via.placeholder.com/150)">
+                <a href="#" class="gallery-item-title">Untitled Rhythm Game</a>
+              </div>
+              <div class="gallery-item-tags">
+                <span class="badge badge-gamedev">gamedev</span>
+                <span class="badge badge-gamedev">2D</span>
+                <span class="badge badge-csharp">c#</span>
+                <span class="badge badge-unity">unity</span>
+              </div>
+              <div class="gallery-item-description">
+                Unity module final project [Jan. 2020]
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="gallery-item">
+              <div class="gallery-item-thumb" style="background:url(https://via.placeholder.com/150)">
+                <a href="#" class="gallery-item-title">Linked Locations</a>
+              </div>
+              <div class="gallery-item-tags">
+                <span class="badge badge-source">sourcecode</span>
+                <span class="badge badge-cplusplus">c++</span>
+                <span class="badge badge-visualstudio">vs</span>
+              </div>
+              <div class="gallery-item-description">
+                A small, silly project created for a data structures module [Mar. 2020]
+              </div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </div> <!-- END SECTION -->
+
+      <!-- FOOTER -->
+      <div class="footer">
+        <p>Copyright &copy; 2021 by Jade E. Bourque</p>
+      </div>
+
+
+    </div>
+
     <script>
-      createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Build.data",
-        frameworkUrl: "Build/Build.framework.js",
-        codeUrl: "Build/Build.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "KaikinRoller",
-        productVersion: "1.0",
-      });
-    </script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
   </body>
 </html>
